@@ -112,6 +112,17 @@ public class NDimensionalArray<E> implements Iterable<E> {
     return dimensions[index];
   }
   
+  /**
+   * Returns a copy of the sizes in all dimension.
+   * 
+   * @return copy of the sizes in all dimension
+   */
+  public int[] getDimensions() {
+    final int[] copy = new int[dimensions.length];
+    System.arraycopy(dimensions, 0, copy, 0, dimensions.length);
+    return copy;
+  }
+  
   
   /**
    * Returns the element at the specified position.
