@@ -6,12 +6,14 @@ The number of dimensions may be unknown at compile time.
 ## Usage
 
 The constructor takes the sizes into the individual dimensions.
-Its elements are stored internally in an linear array in row-major order (last index increments first).
-Therefore one dimensional and multidimensional indexed getters & setters to access the elements are implemented.
+Its elements are stored internally in an linear array in row-major order (last
+index increments first). Therefore one dimensional and multidimensional indexed
+getters & setters to access the elements are implemented.
 
 ## Getting Started
 
-Simply download this repository and add it to your project! Done!
+Simply download this repository and add it to your project as a new package!
+Done!
 
 ## TODO
 
@@ -22,7 +24,7 @@ Simply download this repository and add it to your project! Done!
 
 MIT License
 
-Copyright (c) 2019 Sebastian Gössl
+Copyright (c) 2019 Sebastian GÃ¶ssl
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
