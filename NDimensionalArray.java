@@ -96,6 +96,7 @@ public class NDimensionalArray<E> implements Iterable<E> {
   
   /**
    * Returns the total number of dimensions.
+   * 
    * @return total number of dimensions
    */
   public int getNumberOfDimensions() {
